@@ -1,0 +1,21 @@
+Dataset collection note:
+1) IEEE-8032 repo: https://github.com/ieee8023/covid-chestxray-dataset
+	* Implement with Builder ieee-8032
+	# Different findings
+	* Has 648 images
+2) Farjan repo: https://github.com/Farjanasumona/covid_chestXray_dataset/tree/master/covid_19%20dataset
+	* Implement with Builder Farjan
+	# Normal vs COVID
+	# Has 48 images
+3) Ratnes: https://github.com/ratneshsinghparihar/covid-19/tree/master/dataset/normal
+	* Images included in Farjan
+4) Admad: https://github.com/ahmadhassan7/Covid-19-Datasets
+	/ AHP-covid19-ctscans: CTScan
+	| COVID-CT: CTScan
+	| Padchest-xray-dataset: Resource from: BIMCV-PadChest, resize image: 2.7G
+	| CheXpert: Standford ML group, competition, downsample resolution 11G
+	\ covid-chestxray-dataset: Same as 1)
+5) axriv: https://arxiv.org/abs/2004.02060, paper based on a small dataset
+	/ ieee8032: Same as 1)
+	| https://radiopaedia.org/search?utf8=%E2%9C%93&q=covid&scope=all&lang=us: Lots of CT scan
+	\ https://www.sirm.org/en/category/articles/covid-19-database/: 64 cases, downloaded with BS4

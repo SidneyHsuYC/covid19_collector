@@ -1,0 +1,25 @@
+# Ignore repository
+farjan_repo/*
+ahmad_repo
+ieee8032_repo/*
+sirm_repo/*
+!sirm_repo/sirm_repo_downloader.py
+bimcv_rerpo/*
+
+# Ignore self-testing file
+test*
+xrv_pd_test.py
+loadImage.py
+readme_module.py
+
+# Ignore jupter notebook
+*.ipynb
+
+# Ignore log file
+*.log
+
+# Ignore python internal file
+__pycache__
+
+# Ignore MacOS cache
+.DS_Store
