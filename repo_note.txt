@@ -1,0 +1,28 @@
+(Updated on 7/3/2020)
+Dataset collection note:
+1) IEEE-8032 repo: https://github.com/ieee8023/covid-chestxray-dataset
+	* Repository contains various findings on different pnumoenia types. Have meta.csv that conatins all the information
+	* Implement with Builder ieee-8032
+	* Has 648 effective images
+2) Farjan repo: https://github.com/Farjanasumona/covid_chestXray_dataset/tree/master/covid_19%20dataset
+	* Contains only two folders which are normal & covid
+	* Implement with Builder Farjan
+	* Has 48 effective images
+3) Ratnes: https://github.com/ratneshsinghparihar/covid-19/tree/master/dataset
+	* Data are all included in Farjan repo
+4) Admad: https://github.com/ahmadhassan7/Covid-19-Datasets
+	* Has submodules with 5 repository
+	a. AHP-covid19-ctscans: https://github.com/ahmadhassan7/Covid-19-Datasets/tree/master/AHP-covid19-ctscans
+		* Lots of DICOM files, but are all CT scan images. Temporarily ignore. 
+	b. COVID-CT: https://github.com/ahmadhassan7/Covid-19-Datasets/tree/master/COVID-CT
+		* Contains COVID vs normal CT scan. Temporarily ignore.
+	c. Padchest-xray-dataset: Resource from: BIMCV-PadChest, resize image: 2.7G
+	d. CheXpert: Standford ML group, competition, downsample resolution 11G
+5) axriv: https://arxiv.org/abs/2004.02060, paper of DL based on a small dataset, their resource contains three resource
+	a. ieee8032: Same as 1)
+	b. radiopaedia.org: https://radiopaedia.org/search?utf8=%E2%9C%93&q=covid&scope=all&lang=us
+		* Conatins lots of CT scan. Temporarily ignore.
+	c. sirm.org: https://www.sirm.org/en/category/articles/covid-19-database/ 
+		* Can be downloaded with sirm_repo_downloader.py script under sirm_repo
+		* Conatins effective 63 cases 
+		* Has a few CT scan images, need to filter out manually
