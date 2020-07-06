@@ -1,0 +1,100 @@
+(venv4covid) (base) D:\Dev\datasets\covid\covid19_collector\sirm_repo>python sirm_repo_downloader.py
+COVID-19_case 64 https://www.sirm.org/wp-content/uploads/2020/03/48B3A812-F0CE-4B35-8A2C-88E5550E81EF-534x462.jpeg downloaded
+COVID-19_case 63 https://www.sirm.org/wp-content/uploads/2020/03/75451821-DF9C-483A-B62A-0B01C92D8535-534x462.jpeg downloaded
+COVID-19_case 62 https://www.sirm.org/wp-content/uploads/2020/03/12715C29-F594-4ABD-AE91-7E030A21F433-534x462.jpeg downloaded
+COVID-19_case 61 https://www.sirm.org/wp-content/uploads/2020/03/134895D3-77B8-4546-B7E5-C7DABD600309-534x462.jpeg downloaded
+COVID-19_case 60 https://www.sirm.org/wp-content/uploads/2020/03/B2D20576-00B7-4519-A415-72DE29C90C34-534x462.jpeg downloaded
+COVID-19_case 59 https://www.sirm.org/wp-content/uploads/2020/03/2966893D-5DDF-4B68-9E2B-4979D5956C8E-534x462.jpeg downloaded
+COVID-19_case 58 https://www.sirm.org/wp-content/uploads/2020/03/2B8649B2-00C4-4233-85D5-1CE240CF233B-534x462.jpeg downloaded
+COVID-19_case 57 https://www.sirm.org/wp-content/uploads/2020/03/5A78BCA9-5B7A-440D-8A4E-AE7710EA6EAD-534x462.jpeg downloaded
+COVID-19_case 56 https://www.sirm.org/wp-content/uploads/2020/03/1F6343EE-AFEC-4B7D-97F5-62797EE18767-534x462.jpeg downloaded
+COVID-19_case 55 https://www.sirm.org/wp-content/uploads/2020/03/03BF7561-A9BA-4C3C-B8A0-D3E585F73F3C-534x462.jpeg downloaded
+COVID-19_case 54 https://www.sirm.org/wp-content/uploads/2020/03/353889E0-A1E8-4F9E-A0B8-F24F36BCFBFB-534x462.jpeg downloaded
+COVID-19_case 53 https://www.sirm.org/wp-content/uploads/2020/03/39026CCF-25ED-4005-A11D-04330334A2A3-534x462.jpeg downloaded
+COVID-19_case 52 https://www.sirm.org/wp-content/uploads/2020/03/DBB4184F-4D76-4EDC-AAAD-08369732024F-534x462.jpeg downloaded
+COVID-19_case 51 https://www.sirm.org/wp-content/uploads/2020/03/22691125-BC73-49C6-A273-C17908F96DBE-534x462.jpeg downloaded
+COVID-19_case 50 https://www.sirm.org/wp-content/uploads/2020/03/7EF28E12-F628-4BEC-A8C5-E6277C2E4F60-534x462.png downloaded
+COVID-19_case 49 https://www.sirm.org/wp-content/uploads/2020/03/0375AB8A-1114-4935-9032-57EEF18FF8C4-534x462.jpeg downloaded
+COVID-19_case 48 mini pediatric serial cases https://www.sirm.org/wp-content/uploads/2020/03/0C7E78DA-FAFC-480D-88B6-1459C51481AF-534x462.jpeg downloaded
+COVID-19_case 47 https://www.sirm.org/wp-content/uploads/2020/03/B85CA507-9EE2-497F-AA1E-32B82F75FB54-534x462.jpeg downloaded
+COVID-19_case 46 https://www.sirm.org/wp-content/uploads/2020/03/70997843-CB19-49F7-B6A9-F29DF38F62A4-534x462.jpeg downloaded
+COVID-19_case 45 https://www.sirm.org/wp-content/uploads/2020/03/F7ADD77B-BFD8-4AC8-9411-231C3584D71E-512x462.jpeg downloaded
+COVID-19_case 44 https://www.sirm.org/wp-content/uploads/2020/03/7D2CF6CE-F529-4470-8356-D33FFAF98600-534x462.jpeg downloaded
+COVID-19_case 43 https://www.sirm.org/wp-content/uploads/2020/03/D7AF463C-2369-492D-908D-BE1911CCD74C-534x462.jpeg downloaded
+COVID-19_case 42 https://www.sirm.org/wp-content/uploads/2020/03/7E335538-2F86-424E-A0AB-6397783A38D0-534x462.jpeg downloaded
+COVID-19_case 41 https://www.sirm.org/wp-content/uploads/2020/03/80446565-E090-4187-A031-9D3CEAA586C8-534x462.jpeg downloaded
+COVID-19_case 40 https://www.sirm.org/wp-content/uploads/2020/03/446B2CB6-B572-40AB-B01F-1910CA07086A-534x462.jpeg downloaded
+COVID-19_case 39 https://www.sirm.org/wp-content/uploads/2020/03/AB0B9745-4B4C-4EBE-83EB-DCCB6B4C83B9-534x462.jpeg downloaded
+COVID-19_case 38 https://www.sirm.org/wp-content/uploads/2020/03/5CBC2E94-D358-401E-8928-965CCD965C5C-534x462.jpeg downloaded
+COVID-19_case 37 https://www.sirm.org/wp-content/uploads/2020/03/4ED62BD5-2EF5-47E8-8722-6B47F9D15DFB-534x462.jpeg downloaded
+COVID-19_case 36 https://www.sirm.org/wp-content/uploads/2020/03/D23A8CE5-B976-4116-B67F-C0DA63E49B21-534x462.jpeg downloaded
+COVID-19_case 35 https://www.sirm.org/wp-content/uploads/2020/03/776F113B-95AB-4B7C-B461-5BA65B0219B3-534x462.jpeg downloaded
+COVID-19_case 34 https://www.sirm.org/wp-content/uploads/2020/03/F4341CE7-73C9-45C6-99C8-8567A5484B63-534x462.jpeg downloaded
+COVID-19_case 33 https://www.sirm.org/wp-content/uploads/2020/03/2F1EEB90-90B5-4E59-873F-F04CA868AD2E-534x462.jpeg downloaded
+COVID-19_case 32 https://www.sirm.org/wp-content/uploads/2020/03/39EE8E69-5801-48DE-B6E3-BE7D1BCF3092-534x462.jpeg downloaded
+COVID-19_case 31 https://www.sirm.org/wp-content/uploads/2020/03/B59DD164-51D5-40DF-A926-6A42DD52EBE8-534x462.jpeg downloaded
+COVID-19_case 30 https://www.sirm.org/wp-content/uploads/2020/03/93FE0BB1-022D-4F24-9727-987A07975FFB-534x462.jpeg downloaded
+COVID-19_case 29 https://www.sirm.org/wp-content/uploads/2020/03/2C26F453-AF3B-4517-BB9E-802CF2179543-534x462.jpeg downloaded
+COVID-19_case 28 https://www.sirm.org/wp-content/uploads/2020/03/1DA8009D-A90E-4246-B2F2-27F1D11A81AB-534x462.jpeg downloaded
+COVID-19_case 27 https://www.sirm.org/wp-content/uploads/2020/03/F63AB6CE-1968-4154-A70F-913AF154F53D-534x462.jpeg downloaded
+COVID-19_case 26 https://www.sirm.org/wp-content/uploads/2020/03/01E392EE-69F9-4E33-BFCE-E5C968654078-534x462.jpeg downloaded
+COVID-19_case 25 https://www.sirm.org/wp-content/uploads/2020/03/6CB4EFC6-68FA-4CD5-940C-BEFA8DAFE9A7-534x462.jpeg downloaded
+COVID-19_case 24 https://www.sirm.org/wp-content/uploads/2020/03/85E52EB3-56E9-4D67-82DA-DEA247C82886-534x462.jpeg downloaded
+COVID-19_case 23 https://www.sirm.org/wp-content/uploads/2020/03/CD50BA96-6982-4C80-AE7B-5F67ACDBFA56-534x462.jpeg downloaded
+COVID-19_case 22 https://www.sirm.org/wp-content/uploads/2020/03/1B734A89-A1BF-49A8-A1D3-66FAFA4FAC5D-534x462.jpeg downloaded
+COVID-19_case 21 https://www.sirm.org/wp-content/uploads/2020/03/7AF6C1AF-D249-4BD2-8C26-449304105D03-534x462.jpeg downloaded
+COVID-19_case 20 https://www.sirm.org/wp-content/uploads/2020/03/934302B6-61E5-464E-A16D-EE00894CC23B-534x462.png downloaded
+COVID-19_case 19 https://www.sirm.org/wp-content/uploads/2020/03/D3F5A545-D5C9-4AE7-BEC2-982484F31428-534x462.jpeg downloaded
+COVID-19_case 18 https://www.sirm.org/wp-content/uploads/2020/03/04361CAA-D29E-4E8F-9781-1FE1B66A33C1-534x462.jpeg downloaded
+COVID-19_case 17 https://www.sirm.org/wp-content/uploads/2020/03/1BA91D6C-356A-4FBA-986B-278AAD113808-534x462.jpeg downloaded
+Traceback (most recent call last):
+  File "D:\Dev\datasets\covid\covid19_collector\venv4covid\lib\site-packages\urllib3\connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Dev\datasets\covid\covid19_collector\venv4covid\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "D:\Dev\datasets\covid\covid19_collector\venv4covid\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Dev\datasets\covid\covid19_collector\venv4covid\lib\site-packages\urllib3\connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "D:\Dev\datasets\covid\covid19_collector\venv4covid\lib\site-packages\urllib3\connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "D:\Dev\datasets\covid\covid19_collector\venv4covid\lib\site-packages\urllib3\connectionpool.py", line 976, in _validate_conn
+    conn.connect()
+  File "D:\Dev\datasets\covid\covid19_collector\venv4covid\lib\site-packages\urllib3\connection.py", line 308, in connect
+    conn = self._new_conn()
+  File "D:\Dev\datasets\covid\covid19_collector\venv4covid\lib\site-packages\urllib3\connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000026CBB4D8240>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Dev\datasets\covid\covid19_collector\venv4covid\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Dev\datasets\covid\covid19_collector\venv4covid\lib\site-packages\urllib3\connectionpool.py", line 725, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Dev\datasets\covid\covid19_collector\venv4covid\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.sirm.org', port=443): Max retries exceeded with url: /wp-content/uploads/2020/03/E2734DB3-D888-4859-801B-7A0BF0740B22.jpeg (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000026CBB4D8240>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "sirm_repo_downloader.py", line 21, in <module>
+    image_request = requests.get(img)
+  File "D:\Dev\datasets\covid\covid19_collector\venv4covid\lib\site-packages\requests\api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Dev\datasets\covid\covid19_collector\venv4covid\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Dev\datasets\covid\covid19_collector\venv4covid\lib\site-packages\requests\sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Dev\datasets\covid\covid19_collector\venv4covid\lib\site-packages\requests\sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Dev\datasets\covid\covid19_collector\venv4covid\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.sirm.org', port=443): Max retries exceeded with url: /wp-content/uploads/2020/03/E2734DB3-D888-4859-801B-7A0BF0740B22.jpeg (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000026CBB4D8240>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))

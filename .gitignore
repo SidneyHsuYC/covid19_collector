@@ -1,10 +1,8 @@
 # Ignore repository
-farjan_repo/*
-ahmad_repo/*
-ieee8032_repo/*
-sirm_repo/*
-!sirm_repo/sirm_repo_downloader.py
 bimcv_rerpo/*
+
+# ignore our venv
+venv4covid/*
 
 # Ignore self-testing file
 test*

@@ -1,0 +1,5 @@
+*.jpg
+!sirm_repo/sirm_repo_downloader.py
+
+# Ignore python internal file
+__pycache__
