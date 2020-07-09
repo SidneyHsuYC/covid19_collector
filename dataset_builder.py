@@ -10,8 +10,8 @@ import xray_dataset
 import ieee8032, farjan, sirm, ourlogger
 
 kIEEE8032=True
-kFarjan=False
-kSirm=False
+kFarjan=True
+kSirm=True
 
 # class Director:
 #     def __init__(self):
@@ -26,7 +26,6 @@ kSirm=False
 def main(logger):
 	if kIEEE8032:
 		ieee0832_path = Path.cwd() / 'ieee8032_repo'
-		os.chdir(ieee0832_path)
 		ieee_builder = ieee8032.IEEE8023_builder('metadata.csv', ieee0832_path, logger)
 
 		ieee_builder._load_dataset()
