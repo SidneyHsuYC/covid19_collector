@@ -11,6 +11,7 @@ test*
 xrv_pd_test.py
 loadImage.py
 readme_module.py
+requirements_heavy.txt
 
 # Ignore jupter notebook
 *.ipynb
