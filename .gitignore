@@ -12,6 +12,8 @@ xrv_pd_test.py
 loadImage.py
 readme_module.py
 requirements_heavy.txt
+template*
+covid-chestxray-dataset_old
 
 # Ignore jupter notebook
 *.ipynb

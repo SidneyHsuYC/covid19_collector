@@ -244,18 +244,18 @@ def main():
 
     ieee0832_path = Path.cwd() / 'ieee8032_repo'
     os.chdir(ieee0832_path)
-    # ieee_builder = IEEE8023_builder('metadata.csv')
+    ieee_builder = IEEE8023_builder('metadata.csv')
 
-    # ieee_builder._load_dataset()
-    # ieee_dataset = ieee_builder._dataset
-    # print(f"ieee dataset images quantity: {len(ieee_dataset)}")
+    ieee_builder._load_dataset()
+    ieee_dataset = ieee_builder._dataset
+    print(f"ieee dataset images quantity: {len(ieee_dataset)}")
 
     farjan_path = Path.cwd().parent / 'farjan_repo' 
     os.chdir(farjan_path)
-    # farjan_builder = Farjan_builder()
-    # farjan_builder._load_dataset()
-    # farjan_dataset = farjan_builder._dataset
-    # print(f"farjan dataset images quantity: {len(farjan_dataset)}")
+    farjan_builder = Farjan_builder()
+    farjan_builder._load_dataset()
+    farjan_dataset = farjan_builder._dataset
+    print(f"farjan dataset images quantity: {len(farjan_dataset)}")
 
     sirm_path = Path.cwd().parent / 'sirm_repo' 
     os.chdir(sirm_path)
@@ -264,8 +264,6 @@ def main():
     sirm_dataset = sirm_builder._dataset
     print(f"sirm_path dataset images quantity: {len(sirm_dataset)}")
     print(len(sirm_dataset))
-    for i in sirm_dataset:
-        print(i)
 
 if __name__ == '__main__':
     main()
