@@ -6,15 +6,10 @@ import xray_dataset
 import ieee8032, farjan, sirm
 import ourlogger
 
-kIEEE8032=False
-kFarjan=True
-<<<<<<< HEAD
-kSirm=False
-
-=======
+kIEEE8032=True
+kFarjan=False
 kSirm=True
- 
->>>>>>> db7d002358e6fd4085e2b6df5e1f9a561612fb31
+
 # class Director:
 #     def __init__(self):
 #         self._builder = None
