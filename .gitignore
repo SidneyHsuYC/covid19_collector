@@ -9,6 +9,8 @@ test*
 xrv_pd_test.py
 loadImage.py
 readme_module.py
+template*
+dataloader_sample.py
 
 # Ignore jupter notebook
 *.ipynb

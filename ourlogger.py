@@ -1,7 +1,6 @@
 import logging
 
-def setuplogger(logfilename='imageloader.log'):
-	logger = logging.getLogger(__name__)
+def setuplogger(logger, logfilename='imageloader.log'):
 	# logger.setLevel(logging.INFO)
 	logger.setLevel(logging.WARNING)
 

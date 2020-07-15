@@ -1,4 +1,5 @@
 *.jpg
+*.log
 !sirm_repo/sirm_repo_downloader.py
 
 # Ignore python internal file

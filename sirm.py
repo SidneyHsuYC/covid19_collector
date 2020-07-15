@@ -3,12 +3,19 @@ import csv
 import os
 import hashlib
 from pathlib import Path
+from collections import namedtuple
 
 import xray_dataset, ourlogger
 
+logger = logging.getLogger(__name__)
+logger = ourlogger.setuplogger(logger)
+
+fields = ('patientid', 'offset', 'sex', 'age', 'finding', 'view', 'date')
+Labels = namedtuple('Labels', fields, defaults=(None,) * len(fields))
+
 class Sirm_builder(xray_dataset.COVID_builder):
-	def __init__(self, filepath, logger=None):
-		super().__init__(filepath, logger)
+	def __init__(self, filepath):
+		super().__init__(filepath)
 
 	def _load_dataset(self):
 		rootdir = self.filepath
@@ -17,13 +24,11 @@ class Sirm_builder(xray_dataset.COVID_builder):
 			for file in files:
 				if self._sanity_check(rootdir / file):
 					self._dataset.images.append(str(rootdir / file))
-					self._dataset.labels.append('COVID-19')
-					self._dataset.views.append('')
+					self._dataset.labels.append(Labels(finding='COVID-19'))
 		except Exception as e:
-			self.logger.exception(f"e")
+			logger.exception(f"e")
 
 	def _sanity_check(self, file_path):
-		logger = self.logger
 		if file_path.name in self._dataset.imgname_set:
 			logger.info(f"Dataset Sirm, {file_path.name} has duplicate name in dataset.")
 			return None
@@ -48,25 +53,11 @@ class Sirm_builder(xray_dataset.COVID_builder):
 		self._dataset.imgsum_set.add(checksum)
 		return True
 
-		sirm_path = Path.cwd() / 'sirm_repo' 
-		os.chdir(sirm_path)
-		sirm_builder = sirm.Sirm_builder(logger)
-		sirm_builder._load_dataset()
-		sirm_dataset = sirm_builder._dataset
-		print(f"sirm_path dataset images quantity: {len(sirm_dataset)}")
-		print(len(sirm_dataset))
-		for i in sirm_dataset:
-			print(i)
 
 if __name__ == '__main__':
-	logger = ourlogger.setuplogger('imageloader.log')
-
 	sirm_path = Path.cwd() / 'sirm_repo'
 
-	sirm_builder = Sirm_builder(sirm_path, logger)
+	sirm_builder = Sirm_builder(sirm_path)
 	sirm_builder._load_dataset()
 	sirm_dataset = sirm_builder._dataset
-	print(f"sirm_path dataset images quantity: {len(sirm_dataset)}")
-	print(len(sirm_dataset))
-	for i in sirm_dataset:
-		print(i)
+	sirm_dataset.print_summary()

@@ -3,33 +3,35 @@ import csv
 import os
 import hashlib
 from pathlib import Path
-
+from collections import namedtuple
 import xray_dataset, ourlogger
 
+logger = logging.getLogger(__name__)
+logger = ourlogger.setuplogger(logger)
+
+fields = ('patientid', 'offset', 'sex', 'age', 'finding', 'view', 'date')
+Labels = namedtuple('Labels', fields, defaults=(None,) * len(fields))
+
 class Farjan_builder(xray_dataset.COVID_builder):
-	def __init__(self, filepath, logger):
-		super().__init__(filepath, logger)
+	def __init__(self, filepath):
+		super().__init__(filepath)
 	
 	def _load_dataset(self):
-		rootdir = self.filepath / 'covid_chestXray_dataset/covid_19 dataset'
+		rootdir = self.filepath / 'covid_19 dataset'
 		try:
 			dirs = os.listdir(rootdir)
 			label_from_folder = ['COVID-19' if i == 'covid19' else i for i in dirs]
 
 			for index, sub_dir in enumerate(dirs):
-				# for file in os.listdir(Path.cwd() / 'covid_19 dataset' / sub_dir):
-				#     print(file)
 				sub_path = rootdir / sub_dir
 				for file in os.listdir(sub_path):
 					if self._sanity_check(sub_path / file):
 						self._dataset.images.append(str(sub_path / file))
-						self._dataset.labels.append(label_from_folder[index])
-						self._dataset.views.append('')
+						self._dataset.labels.append(Labels(finding=label_from_folder[index]))
 		except Exception as e:
 			raise e
 
 	def _sanity_check(self, file_path):
-		logger = self.logger
 		if file_path.name in self._dataset.imgname_set:
 			logger.info(f"Dataset Farjan, {file_path.name} has duplicate name in dataset.")
 			return None
@@ -56,12 +58,10 @@ class Farjan_builder(xray_dataset.COVID_builder):
 
 
 if __name__ == '__main__':
-	logger = ourlogger.setuplogger('imageloader.log')
 
-	farjan_path = Path.cwd() / 'farjan_repo' 
-	print(farjan_path)
+	farjan_path = Path.cwd() / 'farjan_repo'
 
-	farjan_builder = Farjan_builder(farjan_path, logger)
+	farjan_builder = Farjan_builder(farjan_path)
 	farjan_builder._load_dataset()
 	farjan_dataset = farjan_builder._dataset
-	print(f"farjan dataset images quantity: {len(farjan_dataset)}")
+	farjan_dataset.print_summary()

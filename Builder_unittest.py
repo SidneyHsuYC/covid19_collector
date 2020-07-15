@@ -1,10 +1,12 @@
 import unittest
 from pathlib import Path
 import os
-from dataset_builder import Xray_dataset, COVID_builder, IEEE8023_builder, Farjan_builder, Sirm_builder
+import xray_dataset
+import ieee8032, farjan, sirm
+from ieee8032_verifer import ieee8032_pdreader
 
 dataset_size = {
-    'ieee8032': 647,
+    'ieee8032': 637,
     'farjan': 48,
     'sirm': 63
 }
@@ -14,22 +16,19 @@ class TestDatasetSize(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         root_dir = Path.cwd()
-        print(root_dir)
-        ieee0832_path = root_dir / 'ieee8032_repo'
-        os.chdir(ieee0832_path)
-        ieee_builder = IEEE8023_builder('metadata.csv')
+
+        ieee0832_path = Path.cwd() / 'ieee8032_repo'
+        ieee_builder = ieee8032.IEEE8023_builder('metadata.csv', ieee0832_path)
         ieee_builder._load_dataset()
         cls.ieee_dataset = ieee_builder._dataset
 
         farjan_path = root_dir / 'farjan_repo' 
-        os.chdir(farjan_path)
-        farjan_builder = Farjan_builder()
+        farjan_builder = farjan.Farjan_builder(farjan_path)
         farjan_builder._load_dataset()
         cls.farjan_dataset = farjan_builder._dataset
 
         sirm_path = root_dir / 'sirm_repo'
-        os.chdir(sirm_path)
-        sirm_builder = Sirm_builder()
+        sirm_builder = sirm.Sirm_builder(sirm_path)
         sirm_builder._load_dataset()
         cls.sirm_dataset = sirm_builder._dataset
 
@@ -53,6 +52,10 @@ class TestDatasetSize(unittest.TestCase):
         self.assertEqual(ieee_count, dataset_size.get('ieee8032')) 
         self.assertEqual(farjan_count, dataset_size.get('farjan')) 
         self.assertEqual(sirm_count, dataset_size.get('sirm')) 
+
+    def test_ieee8032(self):
+        pd_finding = ieee8032_pdreader()
+        self.assertEqual(pd_finding, self.ieee_dataset.summary_dict().get('COVID-19'))
 
 if __name__ == '__main__':
     unittest.main()
