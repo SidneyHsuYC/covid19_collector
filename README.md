@@ -4,7 +4,7 @@ Empty folders including farjan_repo, ahmad_repo, ieee8032_repo, sirm_repo and bi
 are repositories of COVID_19 dataset
 Please change to each repository: `cd {repository name}`
 And do
-1. Farjan_repo: `git clone https://github.com/Farjanasumona/covid_chestXray_dataset/tree/master/`
+1. Farjan_repo: `git clone https://github.com/Farjanasumona/covid_chestXray_dataset.git`
 2. ieee8032_repo: `git clone https://github.com/ieee8023/covid-chestxray-dataset`
 3. bimcv_repo: TBD
 4. sirm_repo: `python3 sirm_repo_downloader.py`

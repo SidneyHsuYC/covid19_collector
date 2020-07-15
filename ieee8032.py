@@ -23,7 +23,7 @@ class IEEE8023_builder(xray_dataset.COVID_builder):
 		try:
 			metafilepath = rootdir / self.metadata
 
-			with open(metafilepath, newline='') as csvfile:
+			with open(metafilepath, encoding="utf8", newline='') as csvfile:
 				# print('loading')
 				spamreader = csv.reader(csvfile, delimiter=',', quotechar='"')
 				self.header = next(spamreader)

@@ -1,0 +1,1479 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"f",
+				"filename"
+			],
+			[
+				"ind",
+				"identity"
+			],
+			[
+				"defaul",
+				"default_out"
+			],
+			[
+				"m",
+				"myresults2"
+			],
+			[
+				"my",
+				"myresults2"
+			],
+			[
+				"p",
+				"pending"
+			],
+			[
+				"ch",
+				"child_seeds"
+			],
+			[
+				"is",
+				"isopen"
+			],
+			[
+				"open",
+				"openfile"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"op",
+				"opened"
+			],
+			[
+				"nu",
+				"null_xform"
+			],
+			[
+				"fina",
+				"finallist"
+			],
+			[
+				"re",
+				"results"
+			],
+			[
+				"once",
+				"onceInit"
+			],
+			[
+				"da",
+				"dataset"
+			],
+			[
+				"a",
+				"asyncio"
+			],
+			[
+				"n",
+				"n_epochs"
+			],
+			[
+				"b",
+				"batchsize"
+			],
+			[
+				"in",
+				"indices"
+			],
+			[
+				"s",
+				"shuffle"
+			],
+			[
+				"q",
+				"qInit"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"k",
+				"kPersist"
+			],
+			[
+				"sc",
+				"scheduleWork"
+			],
+			[
+				"wo",
+				"workerargs"
+			],
+			[
+				"sen",
+				"send_end"
+			],
+			[
+				"po",
+				"poison-pill"
+			],
+			[
+				"ou",
+				"out_q"
+			],
+			[
+				"o",
+				"out_q"
+			],
+			[
+				"l",
+				"labels"
+			],
+			[
+				"la",
+				"labels"
+			],
+			[
+				"L",
+				"label0"
+			],
+			[
+				"w",
+				"workerargs"
+			],
+			[
+				"bigfile",
+				"bigfile"
+			],
+			[
+				"min",
+				"minv"
+			],
+			[
+				"i",
+				"img0"
+			],
+			[
+				"__",
+				"__del__"
+			],
+			[
+				"d",
+				"dataset"
+			],
+			[
+				"Co",
+				"CoShReM"
+			],
+			[
+				"fi",
+				"filepath"
+			],
+			[
+				"write",
+				"writeChunks"
+			],
+			[
+				"c",
+				"chunks"
+			],
+			[
+				"bi",
+				"bigchunks2"
+			],
+			[
+				"g",
+				"get_chunk"
+			],
+			[
+				"se",
+				"send_list"
+			],
+			[
+				"j",
+				"jobs"
+			],
+			[
+				"send",
+				"send_list"
+			],
+			[
+				"on",
+				"onceInit"
+			],
+			[
+				"pip",
+				"pipe_list"
+			],
+			[
+				"me",
+				"meta_data"
+			],
+			[
+				"data",
+				"datafolder"
+			],
+			[
+				"fu",
+				"full_dataset"
+			],
+			[
+				"pi",
+				"pipe_list"
+			],
+			[
+				"Big",
+				"BigChunk"
+			],
+			[
+				"from",
+				"fromChunks"
+			],
+			[
+				"writ",
+				"write_header"
+			],
+			[
+				"bu",
+				"bigchunks"
+			],
+			[
+				"chunks",
+				"kChunksFmt"
+			],
+			[
+				"end",
+				"endpos"
+			],
+			[
+				"shfile",
+				"shfiles"
+			],
+			[
+				"wr",
+				"writeChunks"
+			],
+			[
+				"our",
+				"ourchunks"
+			],
+			[
+				"fin",
+				"finalize"
+			],
+			[
+				"chunk",
+				"chunksize"
+			],
+			[
+				"big",
+				"bigfile_chunks"
+			],
+			[
+				"x",
+				"xform_config"
+			],
+			[
+				"comp",
+				"compute_offsets"
+			],
+			[
+				"pre",
+				"prepCOVID19"
+			],
+			[
+				"test",
+				"test_dataset"
+			],
+			[
+				"v",
+				"val_dataset"
+			],
+			[
+				"sh",
+				"shfiles"
+			],
+			[
+				"e",
+				"entry0"
+			],
+			[
+				"co",
+				"covid"
+			],
+			[
+				"vi",
+				"viewidx"
+			],
+			[
+				"find",
+				"finding"
+			],
+			[
+				"de",
+				"delta"
+			],
+			[
+				"to",
+				"total"
+			],
+			[
+				"col",
+				"colmap"
+			],
+			[
+				"meta",
+				"metadata"
+			],
+			[
+				"coshx",
+				"coshxform"
+			],
+			[
+				"sh_",
+				"sh_sys"
+			],
+			[
+				"of",
+				"outputfile"
+			],
+			[
+				"shfil",
+				"shfilename"
+			],
+			[
+				"lab",
+				"label0"
+			],
+			[
+				"shfi",
+				"shfilename"
+			],
+			[
+				"load",
+				"loadFashion"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"loa",
+				"loadFashion"
+			],
+			[
+				"shf",
+				"shfactory"
+			],
+			[
+				"xform",
+				"xformdataset"
+			],
+			[
+				"work",
+				"workerargs"
+			],
+			[
+				"image",
+				"imagefile"
+			],
+			[
+				"ima",
+				"imagefile"
+			],
+			[
+				"xf",
+				"xform_config"
+			],
+			[
+				"Bi",
+				"BigFileBuilderMP"
+			],
+			[
+				"dat",
+				"dataset"
+			],
+			[
+				"named",
+				"namedtuple"
+			],
+			[
+				"B",
+				"BigFileBuilderMP"
+			],
+			[
+				"us",
+				"use_cuda"
+			],
+			[
+				"shear",
+				"shearlets_complex"
+			],
+			[
+				"merg",
+				"mergedfile"
+			],
+			[
+				"kU",
+				"kUseFull"
+			],
+			[
+				"whi",
+				"which_set"
+			],
+			[
+				"di",
+				"dirname"
+			],
+			[
+				"sn",
+				"snapshot_name"
+			],
+			[
+				"model",
+				"modelname"
+			],
+			[
+				"cn",
+				"cnn_1x1"
+			],
+			[
+				"mo",
+				"model_name"
+			],
+			[
+				"modl",
+				"modelname"
+			],
+			[
+				"kE",
+				"kEnableCNNDropout"
+			],
+			[
+				"she",
+				"shearletxform"
+			],
+			[
+				"N",
+				"Net_architectures"
+			],
+			[
+				"cnn",
+				"cnn_kwargs"
+			],
+			[
+				"cu",
+				"cudadevice"
+			],
+			[
+				"ss",
+				"ssim_score"
+			],
+			[
+				"jo",
+				"join_thread"
+			],
+			[
+				"r",
+				"raw_dataset"
+			],
+			[
+				"te",
+				"test-set"
+			],
+			[
+				"t",
+				"train_set"
+			],
+			[
+				"train",
+				"train-set"
+			],
+			[
+				"shearle",
+				"shearletxform"
+			],
+			[
+				"trans",
+				"transforms"
+			],
+			[
+				"log",
+				"logcsvpath"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "dataset_builder.py",
+			"settings":
+			{
+				"buffer_size": 1384,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ourlogger.py",
+			"settings":
+			{
+				"buffer_size": 511,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 720 files for \"csv\" (case sensitive, whole word)\n\nD:\\Dev\\datasets\\covid\\covid19_collector\\Builder_unittest.py:\n   18          ieee0832_path = root_dir / 'ieee8032_repo'\n   19          os.chdir(ieee0832_path)\n   20:         ieee_builder = IEEE8023_builder('metadata.csv')\n   21          ieee_builder._load_dataset()\n   22          cls.ieee_dataset = ieee_builder._dataset\n\nD:\\Dev\\datasets\\covid\\covid19_collector\\dataset_builder.py:\n    1  #import logging\n    2: #import csv\n    3  import os\n    4  #import hashlib\n    .\n   27  \tif kIEEE8032:\n   28  \t\tieee0832_path = Path.cwd() / 'ieee8032_repo'\n   29: \t\tieee_builder = ieee8032.IEEE8023_builder('metadata.csv', ieee0832_path, logger)\n   30  \n   31  \t\tieee_builder._load_dataset()\n\nD:\\Dev\\datasets\\covid\\covid19_collector\\farjan.py:\n    1  import logging\n    2: import csv\n    3  import os\n    4  import hashlib\n\nD:\\Dev\\datasets\\covid\\covid19_collector\\ieee8032.py:\n    1  import logging\n    2: import csv\n    3  import os\n    4  import hashlib\n    .\n   22  \t\t\twith open(metafilepath, encoding=\"utf8\", newline='') as csvfile:\n   23  \t\t\t\t# print('loading')\n   24: \t\t\t\tspamreader = csv.reader(csvfile, delimiter=',', quotechar='\"')\n   25  \t\t\t\tself.header = next(spamreader)\n   26  \t\t\t\tself.__load_index(self.header)\n   ..\n  100  \tieee0832_path = Path.cwd() / 'ieee8032_repo'\n  101  \tos.chdir(ieee0832_path)\n  102: \tieee_builder = IEEE8023_builder('metadata.csv', ieee0832_path, logger)\n  103  \n  104  \tieee_builder._load_dataset()\n\nD:\\Dev\\datasets\\covid\\covid19_collector\\imageloader.log:\n    1: WARNING:ourlogger:[Errno 2] No such file or directory: 'metadata.csv'\n    2: WARNING:ourlogger:[Errno 2] No such file or directory: 'metadata.csv'\n    3: WARNING:ourlogger:[Errno 2] No such file or directory: 'metadata.csv'\n    4: WARNING:ourlogger:[Errno 2] No such file or directory: 'metadata.csv'\n    5  WARNING:ourlogger:unsupported operand type(s) for +: 'WindowsPath' and 'str'\n    6: WARNING:ourlogger:[Errno 2] No such file or directory: 'D:\\\\metadata.csv'\n    7: WARNING:ourlogger:[Errno 2] No such file or directory: 'D:\\\\Dev\\\\datasets\\\\covid\\\\covid19_collector\\\\ieee8032_repo\\\\metadata.csv'\n    8  WARNING:ourlogger:'IEEE8023_builder' object has no attribute 'filename_indexfolder_index'\n    9  \n\nD:\\Dev\\datasets\\covid\\covid19_collector\\repo_note.txt:\n    2  Dataset collection note:\n    3  1) IEEE-8032 repo: https://github.com/ieee8023/covid-chestxray-dataset\n    4: \t* Repository contains various findings on different pnumoenia types. Have meta.csv that conatins all the information\n    5  \t* Implement with Builder ieee-8032\n    6  \t* Has 648 effective images\n\nD:\\Dev\\datasets\\covid\\covid19_collector\\sirm.py:\n    1  import logging\n    2: import csv\n    3  import os\n    4  import hashlib\n\nD:\\Dev\\datasets\\covid\\covid19_collector\\ieee8032_repo\\covid-chestxray-dataset\\README.md:\n    9  This project is approved by the University of Montreal's Ethics Committee #CERSES-20-058-D\n   10  \n   11: ## View current [images](images) and [metadata](metadata.csv)\n   12  \n   13  Current stats of PA, AP, and AP Supine views. Labels 0=No or 1=Yes. Data loader is [here](https://github.com/mlmed/torchxrayvision/blob/master/torchxrayvision/datasets.py#L867)\n   ..\n   59  [Lung Bounding Boxes](annotations/imageannotation_ai_lung_bounding_boxes.json) (license: CC BY-SA) contributed by Andrew Gough at [General Blockchain, Inc.](https://www.generalblockchain.com) \n   60  \n   61: [Pneumonia severity scores for 94 images](annotations/covid-severity-scores.csv) (license: CC BY-SA) from the paper [Predicting COVID-19 Pneumonia Severity on Chest X-ray with Deep Learning](http://arxiv.org/abs/2005.11856)\n   62  \n   63  [Generated Lung Segmentations](annotations/lungVAE-masks) (license: CC BY-SA) from the paper [Lung Segmentation from Chest X-rays using Variational Data Imputation](https://arxiv.org/abs/2005.10052)\n   ..\n  157  ## License\n  158  \n  159: Each image has license specified in the metadata.csv file. Including Apache 2.0, CC BY-NC-SA 4.0, CC BY 4.0.\n  160  \n  161: The metadata.csv, scripts, and other documents are released under a CC BY-NC-SA 4.0 license. Companies are free to perform research. Beyond that contact us.\n  162  \n\nD:\\Dev\\datasets\\covid\\covid19_collector\\ieee8032_repo\\covid-chestxray-dataset\\scripts\\eurorad.py:\n    9  images have the same name).\n   10  \n   11: It also extracts metadata from these pages and saves them to a csv file compatible\n   12: with metadata.csv. Internally, it starts by converting this metadata to an\n   13  interoperable format that is easy to work with (referred to as \"standard\"), so\n   14  if you wish you can write a function to convert the metadata to an output format\n   ..\n   28  Then, run from the console as eurorad.py, ideally in the same directory.\n   29  \n   30: python eurorad.py \"search terms\" image_output_folder/ new_metadata_filename.csv old_metadata_filename.csv'\n   31  \n   32  Tested with Chrome 80.0.3987.87\n   ..\n  231  \n  232  def standard_to_metadata_format(standard_record, filenames):\n  233:     \"Convert data in an interoperable format to the format in metadata.csv\"\n  234      all_rows = []\n  235      images = standard_record[\"images\"]\n  ...\n  407          \"newcsv\",\n  408           help=\"File to output candidate metadata.\",\n  409:          default=\"../candidate_metadata.csv\"\n  410      )\n  411      parser.add_argument(\n  412:         \"csv\",\n  413          help=\"Location of old metadata.\",\n  414:         default=\"../metadata.csv\"\n  415      )\n  416  \n  ...\n  425  \n  426          #Read in current metadata\n  427:         old_data = pd.read_table(args.csv, sep=\",\")\n  428  \n  429          #Build a generator of new case URLs\n\nD:\\Dev\\datasets\\covid\\covid19_collector\\ieee8032_repo\\covid-chestxray-dataset\\scripts\\hannover.py:\n   25  \n   26  def convert_metadata(data, starting_ptid):\n   27:     \"\"\"Convert the provided data to a format compatible with metadata.csv\"\"\"\n   28:     #Id: Count up from highest in metadata.csv\n   29      id_ = data[\"patient_id\"].astype(\"category\").cat.codes\n   30      id_ += starting_ptid + 1\n   ..\n  229  \n  230      #Open hannover data\n  231:     hannover_csv_path = os.path.join(hannover_repo, \"data.csv\")\n  232      hannover_data = pd.read_csv(hannover_csv_path)\n  233      print(\"shape of hannover data\", hannover_data.shape)\n  234  \n  235      #Open mila data\n  236:     mila_csv_path = os.path.join(mila_repo, \"metadata.csv\")\n  237      metadata = pd.read_table(mila_csv_path,sep=\",\", dtype=\"str\")\n  238      print(\"shape of original data\", metadata.shape)\n  ...\n  248      hannover_data = convert_metadata(hannover_data, starting_ptid=0)\n  249  \n  250:     #If old entries are deleted, take them out of metadata.csv\n  251      removed, metadata = remove_deleted_hannover_entries(\n  252          metadata,\n\nD:\\Dev\\datasets\\covid\\covid19_collector\\ieee8032_repo\\covid-chestxray-dataset\\scripts\\metadata_visualization.ipynb:\n   32      \"import numpy as np\\n\",\n   33      \"# import data\\n\",\n   34:     \"metadata_dir = '../metadata.csv'\\n\",\n   35      \"metadata = pd.read_csv(metadata_dir)\\n\",\n   36      \"# what info do we have?\\n\",\n\nD:\\Dev\\datasets\\covid\\covid19_collector\\ieee8032_repo\\covid-chestxray-dataset\\scripts\\radiopaedia.py:\n    9  images have the same name).\n   10  \n   11: It also extracts metadata from these pages and saves them to a csv file compatible\n   12: with metadata.csv. Internally, it starts by converting this metadata to an\n   13  interoperable format that is easy to work with (referred to as \"standard\"), so\n   14  if you wish you can write a function to convert the metadata to an output format\n   ..\n   28  Then, run from the console as radiopaedia.py, ideally in the same directory.\n   29  \n   30: python radiopaedia.py \"search terms\" image_output_folder/ new_metadata_filename.csv old_metadata_filename.csv\n   31  \n   32  Tested with Chrome 80.0.3987.87\n   ..\n  401  \n  402  def standard_to_metadata_format(standard_record, filenames):\n  403:     \"Convert data in an interoperable format to the format in metadata.csv\"\n  404      all_rows = []\n  405      images = standard_record[\"images\"]\n  ...\n  523          \"newcsv\",\n  524           help=\"File to output candidate metadata.\",\n  525:          default=\"../candidate_metadata.csv\"\n  526      )\n  527      parser.add_argument(\n  528:         \"csv\",\n  529          help=\"Location of old metadata.\",\n  530:         default=\"../metadata.csv\"\n  531      )\n  532  \n  ...\n  541  \n  542          #Read in current metadata\n  543:         old_data = pd.read_table(args.csv, sep=\",\")\n  544  \n  545          #Build a generator of new case URLs\n\nD:\\Dev\\datasets\\covid\\covid19_collector\\ieee8032_repo\\covid-chestxray-dataset\\scripts\\select_covid_patient_X_ray_images.py:\n    1  '''\n    2  This code finds all images of patients of a specified VIRUS and X-Ray view and stores selected image to an OUTPUT directory\n    3: + It uses metadata.csv for searching and retrieving images name\n    4  + Using ./images folder it selects the retrieved images and copies them in output folder\n    5  Code can be modified for any combination of selection of images\n    .\n   14  x_ray_view = \"PA\" # View of X-Ray\n   15  \n   16: metadata = \"../metadata.csv\" # Meta info\n   17  imageDir = \"../images\" # Directory of images\n   18  outputDir = '../output' # Output directory to store selected images\n\nD:\\Dev\\datasets\\covid\\covid19_collector\\ieee8032_repo\\covid-chestxray-dataset\\scripts\\test_dataloader.py:\n    9      print(xrv.datasets.COVID19_Dataset(views=views,\n   10                                           imgpath=\"../images\",\n   11:                                          csvpath=\"../metadata.csv\"))\n   12  \n   13  d_covid19 = xrv.datasets.COVID19_Dataset(views=[\"PA\", \"AP\", \"AP Supine\"],\n   14                                           imgpath=\"../images\",\n   15:                                          csvpath=\"../metadata.csv\")\n   16  print(d_covid19)\n   17  \n   ..\n   24          break;\n   25      except:\n   26:         print(\"Error with {}\".format(i) + d_covid19.csv.iloc[idx].filename)\n   27          print(sys.exc_info()[1])\n   28  \n\nD:\\Dev\\datasets\\covid\\covid19_collector\\ieee8032_repo\\covid-chestxray-dataset\\scripts\\verify_and_modify_dataset.ipynb:\n   24      \"# d_covid19_base = xrv.datasets.COVID19_Dataset(views=[\\\"PA\\\", \\\"AP\\\", \\\"AP Supine\\\"],\\n\",\n   25      \"#                                          imgpath=\\\"../images\\\",\\n\",\n   26:     \"#                                          csvpath=\\\"../metadata.csv\\\")\\n\",\n   27      \"\\n\"\n   28     ]\n   ..\n   58      \"d_covid19 = xrv.datasets.COVID19_Dataset(views=[\\\"PA\\\", \\\"AP\\\", \\\"AP Supine\\\"],\\n\",\n   59      \"                                         imgpath=\\\"../images\\\",\\n\",\n   60:     \"                                         csvpath=\\\"../metadata.csv\\\")\\n\",\n   61      \"print(d_covid19)\\n\",\n   62      \"\\n\"\n   ..\n  237      \"        break;\\n\",\n  238      \"    except:\\n\",\n  239:     \"        missing.append(d_covid19.csv.iloc[idx].filename)\\n\",\n  240:     \"        print(\\\"Error with {}\\\".format(i) + d_covid19.csv.iloc[idx].filename)\\n\",\n  241      \"        print(sys.exc_info()[1])\"\n  242     ]\n  ...\n  525     \"outputs\": [],\n  526     \"source\": [\n  527:     \"csv = pd.read_csv(\\\"../metadata.csv\\\", dtype=\\\"str\\\")\"\n  528     ]\n  529    },\n  ...\n  548     \"outputs\": [],\n  549     \"source\": [\n  550:     \"csv = csv[~csv.filename.isin(missing)]\"\n  551     ]\n  552    },\n  ...\n  971     ],\n  972     \"source\": [\n  973:     \"csv\"\n  974     ]\n  975    },\n  ...\n  980     \"outputs\": [],\n  981     \"source\": [\n  982:     \"csv.to_csv(\\\"../metadata.csv\\\", index=False)\"\n  983     ]\n  984    },\n\nD:\\Dev\\datasets\\covid\\covid19_collector\\ieee8032_repo\\covid-chestxray-dataset\\tests\\test_dataloader.py:\n   12          print(xrv.datasets.COVID19_Dataset(views=views,\n   13                                               imgpath=\"images\",\n   14:                                              csvpath=\"metadata.csv\"))\n   15          \n   16  def test_dataloader():\n   17      d_covid19 = xrv.datasets.COVID19_Dataset(views=[\"PA\", \"AP\", \"AP Supine\"],\n   18                                               imgpath=\"images\",\n   19:                                              csvpath=\"metadata.csv\")\n   20      print(d_covid19)\n   21  \n\nD:\\Dev\\datasets\\covid\\covid19_collector\\venv4covid\\Lib\\site-packages\\pip\\_internal\\operations\\install\\wheel.py:\n   10  import compileall\n   11  import contextlib\n   12: import csv\n   13  import logging\n   14  import os.path\n   ..\n  595      with open(record_path, **csv_io_kwargs('r')) as record_file:\n  596          rows = get_csv_rows_for_installed(\n  597:             csv.reader(record_file),\n  598              installed=installed,\n  599              changed=changed,\n  ...\n  601              lib_dir=lib_dir)\n  602      with _generate_file(record_path, **csv_io_kwargs('w')) as record_file:\n  603:         writer = csv.writer(record_file)\n  604          writer.writerows(sorted_outrows(rows))  # sort to simplify testing\n  605  \n\nD:\\Dev\\datasets\\covid\\covid19_collector\\venv4covid\\Lib\\site-packages\\pip\\_internal\\req\\req_uninstall.py:\n    1  from __future__ import absolute_import\n    2  \n    3: import csv\n    4  import functools\n    5  import logging\n    .\n   83      UninstallPathSet.add() takes care of the __pycache__ .py[co].\n   84      \"\"\"\n   85:     r = csv.reader(FakeFile(dist.get_metadata_lines('RECORD')))\n   86      for row in r:\n   87          path = os.path.join(dist.location, row[0])\n\nD:\\Dev\\datasets\\covid\\covid19_collector\\venv4covid\\Lib\\site-packages\\pip\\_vendor\\distlib\\util.py:\n    6  from collections import deque\n    7  import contextlib\n    8: import csv\n    9  from glob import iglob as std_iglob\n   10  import io\n   ..\n 1582  \n 1583  #\n 1584: # CSV functionality. This is provided because on 2.x, the csv module can't\n 1585  # handle Unicode. However, we need to deal with Unicode in e.g. RECORD files.\n 1586  #\n ....\n 1600      defaults = {\n 1601          'delimiter': str(','),      # The strs are used because we need native\n 1602:         'quotechar': str('\"'),      # str in the csv API (2.x won't take\n 1603          'lineterminator': str('\\n') # Unicode)\n 1604      }\n ....\n 1621          else:\n 1622              self.stream = _csv_open(kwargs['path'], 'r')\n 1623:         self.reader = csv.reader(self.stream, **self.defaults)\n 1624  \n 1625      def __iter__(self):\n ....\n 1639      def __init__(self, fn, **kwargs):\n 1640          self.stream = _csv_open(fn, 'w')\n 1641:         self.writer = csv.writer(self.stream, **self.defaults)\n 1642  \n 1643      def writerow(self, row):\n\n72 matches across 19 files\n",
+			"settings":
+			{
+				"buffer_size": 14584,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "xray_dataset.py",
+			"settings":
+			{
+				"buffer_size": 1025,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Virtualenv/Python + Virtualenv.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/Virtualenv/Python + Virtualenv.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Virtualenv/Python + Virtualenv.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"V",
+				"Virtualenv: Activate"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"ven",
+				"Virtualenv: Activate"
+			],
+			[
+				"virtualenv",
+				"Virtualenv: Add directory"
+			],
+			[
+				"venv",
+				"Virtualenv: New"
+			],
+			[
+				"Package Control: Install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Virtualenv",
+				"Virtualenv: Activate"
+			],
+			[
+				"Package Control: Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"stop",
+			"x",
+			"x = 'hello' if n else 0",
+			"print('hello') if n ",
+			"n = None",
+			"a",
+			"a = 'b' if 1>0 else 'c'",
+			"import numpy",
+			"import torch",
+			"device = 'cuda:0' if torch.cuda.is_available() else 'cpu'",
+			"MLP()",
+			"net = MLP().to('cuda:0')",
+			"for i in range(0,10):print(i)",
+			"for i in range(0,10):",
+			"print('hi')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Dev/datasets/covid/covid19_collector"
+	],
+	"file_history":
+	[
+		"/D/Dev/datasets/covid/covid19_collector/ieee8032.py",
+		"/D/Dev/datasets/covid/covid19_collector/ourlogger.py",
+		"/D/Dev/datasets/covid/covid19_collector/sirm.py",
+		"/D/Dev/datasets/covid/covid19_collector/farjan.py",
+		"/D/Dev/datasets/covid/covid19_collector/README.md",
+		"/D/Dev/datasets/covid/covid19_collector/sirm_repo/download1log.txt",
+		"/D/Dev/datasets/covid/covid19_collector/sirm_repo/.gitignore",
+		"/D/Dev/datasets/covid/covid19_collector/requirements.txt",
+		"/D/Dev/datasets/covid/covid19_collector/.gitignore",
+		"/D/Dev/datasets/covid/covid19_collector/farjan_repo/farjan.py",
+		"/D/Dev/datasets/covid/covid19_collector/ieee8032_repo/.gitignore",
+		"/D/Dev/datasets/covid/covid19_collector/farjan_repo/.gitignore",
+		"/D/Dev/datasets/covid/covid19_collector/xray_dataset.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/mppool.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/batch.py",
+		"/D/Dev/SigProc/onsen/shnetutil/shnetutil/coshrem_xform.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/proc_covid.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/mp-big.py",
+		"/D/Dev/SigProc/onsen/shnetutil/shnetutil/BigFile.py",
+		"/D/Dev/SigProc/onsen/data/covid-chestxray-dataset/scripts/eurorad.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/BigFile.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/t1.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/mpverify.py",
+		"/D/Dev/SigProc/onsen/shnetutil/shnetutil/bigfilebuildermp.py",
+		"/D/Dev/SigProc/onsen/shnetutil/shnetutil/combine_sh.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/mp-batch.py",
+		"/D/Dev/SigProc/onsen/shnetutil/shnetutil/BigFileBuilder.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/make_fmaps_cpu.py",
+		"/D/Dev/SigProc/onsen/shnetutil/shnetutil/mppool.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/w1.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/w2.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/test_loadcovid.py",
+		"/D/Dev/SigProc/onsen/network_dev/fashion/pipeline/procshearlets.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/proc_bigfile.py",
+		"/D/Dev/SigProc/onsen/shnetutil/shnetutil/torchutils.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/mp-batch2.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/ignite.py",
+		"/D/Dev/SigProc/onsen/Docs/DataPipeline/asyncio.txt",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/loader/loadCOVID.py",
+		"/D/Dev/SigProc/onsen/shnetutil/shnetutil/shxform.py",
+		"/D/Dev/SigProc/onsen/PyCoShREM/coshrem/shearletsystem.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/t.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/coshrem_xform.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/t2.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/test-coshrem.py",
+		"/D/Dev/SigProc/onsen/torchxrayvision/torchxrayvision/datasets.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/notorch-torch.log",
+		"/D/Dev/SigProc/onsen/shnetutil/shnetutil/mpxform.py",
+		"/D/Dev/SigProc/onsen/network_dev/fashion/modelling.py",
+		"/D/Dev/SigProc/onsen/shearlet-CNN.sublime-project",
+		"/D/Dev/SigProc/onsen/network_dev/fashion/pipeline/mpxform.py",
+		"/D/Dev/SigProc/onsen/Docs/useful-resources.txt",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/t_resize.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/t_chunks.py",
+		"/D/Dev/SigProc/onsen/PyCoShREM/coshrem/shearlet.py",
+		"/D/Dev/SigProc/onsen/network_dev/fashion/net_ops.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/t_concat.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/t_writechunks.py",
+		"/D/Dev/SigProc/onsen/data/.gitignore",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/data/public-dataset.txt",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/t-writechunks.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/chunks.tbl",
+		"/D/Dev/SigProc/onsen/struct-practice/bytesio1.py",
+		"/D/Dev/SigProc/onsen/struct-practice/bytesio2.py",
+		"/D/Dev/SigProc/onsen/shnetutil/shnetutil/shearletxform.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/CovidXrayDataset.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/coshrem_test/coshrem_xform_tst.py",
+		"/D/Dev/SigProc/onsen/network_dev/fashion/pipeline/proc_coshrem.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/proc_coshrem.py",
+		"/D/Dev/SigProc/onsen/network_dev/fashion/pipeline/bigfilebuildermp.py",
+		"/D/Dev/SigProc/onsen/network_dev/fashion/pipeline/shsys_def.py",
+		"/D/Dev/SigProc/onsen/network_dev/fashion/pipeline/combine_big.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/coshrem_xform_tst.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/loader/xrv_pd_test.py",
+		"/D/Dev/SigProc/onsen/network_dev/fashion/pipeline/coshrem_xform.py",
+		"/D/Dev/SigProc/onsen/network_dev/fashion/pipeline/mpverify.py",
+		"/C/Users/manny/Downloads/data_loading_tutorial.py",
+		"/D/Dev/SigProc/onsen/shnetutil/shnetutil/pysh_xform.py",
+		"/D/Dev/SigProc/onsen/network_dev/fashion/pipeline/loadFashion.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/loadCOVID.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/xrv_pd_test.py",
+		"/D/Dev/SigProc/onsen/pyutils/pyutils/loadcsv.py",
+		"/D/Dev/SigProc/onsen/struct-practice/datamerger2.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/predict.py",
+		"/D/Dev/SigProc/onsen/pyutils/pyutils/folderiter.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/loadFashion.py",
+		"/D/Dev/SigProc/onsen/network_dev/fashion/pipeline/coshrem_xform_tst.py",
+		"/D/Dev/SigProc/onsen/shnetutil/shnetutil/loadMNIST.py",
+		"/D/Dev/SigProc/onsen/network_dev/fashion/pipeline/t.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/mpxform.py",
+		"/D/Dev/SigProc/onsen/network_dev/fashion/pipeline/xform_coshrem.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/procshearlets.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/../../fashion/pipeline/combine_big.py",
+		"/D/Dev/SigProc/onsen/shnetutil/shnetutil/t1.py",
+		"/D/Dev/SigProc/onsen/shnetutil/setup.py",
+		"/D/Dev/SigProc/onsen/setup.py",
+		"/D/Dev/SigProc/onsen/setup.txt",
+		"/D/Dev/SigProc/onsen/PyCoShREM/examples/edge_detection.py",
+		"/D/Dev/SigProc/onsen/pyutils/pyutils/crypt.py",
+		"/D/Dev/SigProc/onsen/PyCoShREM/examples/flame_front_detection.py",
+		"/D/tmp/requirements.txt",
+		"/D/Dev/SigProc/onsen/network_dev/fashion/modeltester.py",
+		"/D/Dev/SigProc/onsen/network_dev/fashion/restart.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/.gitattributes",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/combine_sh.py",
+		"/D/Dev/SigProc/onsen/network_dev/fashion/pipeline/combine_sh.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/../output/tuning1.log",
+		"/D/Dev/SigProc/onsen/network_dev/fashion/pipeline/pysh_xform.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/pysh_xform.py",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/requirements.txt",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/pipeline/shxform.py",
+		"/D/Dev/SigProc/onsen/network_dev/fashion/pipeline/shxform.py",
+		"/D/Dev/SigProc/onsen/network_dev/fashion/Net_architectures.py",
+		"/D/Dev/SigProc/onsen/network_dev/fashion/test_kModels.py",
+		"/D/Dev/SigProc/onsen/network_dev/.gitignore",
+		"/D/Dev/SigProc/onsen/network_dev/fashion/pipeline/t2.py",
+		"/D/Dev/SigProc/onsen/network_dev/fashion/pipeline/t1.py",
+		"/D/Dev/SigProc/onsen/network_dev/fashion/pipeline/numba1.py",
+		"/D/Dev/SigProc/onsen/Docs/notebook.txt",
+		"/D/Dev/SigProc/onsen/Docs/.ipynb_checkpoints/Pytorch_PyCoshrem-checkpoint.ipynb",
+		"/D/Dev/SigProc/onsen/PyCoShREM_sample/t1.py",
+		"/D/Dev/SigProc/onsen/PyCoShREM_sample/Pytorch_PyCoshrem.py",
+		"/D/Dev/SigProc/onsen/PyCoShREM_sample/Pytorch_PyCoshrem.ipynb",
+		"/D/Dev/SigProc/onsen/network_dev/COVID/cnn_architecture.py",
+		"/D/Dev/SigProc/onsen/requirements.txt",
+		"/D/Dev/SigProc/onsen/shnetutil/shnetutil/mpverify.py",
+		"/D/Dev/SigProc/onsen/venv4shearlets/lib/site-packages/shnetutil/torchutils.py",
+		"/D/Dev/SigProc/onsen/PyCoShREM/coshrem/util/cone.py"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+			"",
+			"<open folders>",
+			"<open folders>,D:\\Dev\\SigProc\\onsen\\network_dev\\COVID",
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"csv",
+			"Path",
+			"abc",
+			"hashlib",
+			"logging",
+			"Xray_dataset",
+			"xform2",
+			"wait",
+			"self.dataset",
+			"self.full_dataset",
+			"combine2BigFile",
+			"write_header",
+			"writeBigFile",
+			"BigChunk",
+			"queue.",
+			"queue",
+			"torchutils",
+			"asyncio",
+			"proc_covid",
+			"time_spent",
+			"time",
+			">>>",
+			"batch_fftshift2d",
+			"argparse",
+			"no_threshold",
+			"ourIdentityXform",
+			"kCovidtransform",
+			"kBigFileOnly",
+			"shearlet_xform",
+			"toBigFile",
+			"kCUDA",
+			"makeWorker",
+			"multiprocessing.Pool",
+			"asyncio",
+			"collections",
+			"range",
+			"output_candidate_entries",
+			"find_new_eurorad_entries",
+			"yield",
+			"shuffle",
+			"utils.data",
+			"mppool",
+			"kStopValue",
+			"prepWorker",
+			"proc_covid",
+			"kShearletspec",
+			"classmethod",
+			"send_end",
+			"Worker",
+			"pickle",
+			"Dataset",
+			"proc_covid",
+			"mppool",
+			"\"url\"",
+			"image[\"url\"]",
+			"urllib",
+			"DataLoader",
+			"_shearletSystem",
+			"getcomplexshearlets2D",
+			"xformdataset_serial",
+			"ShearletSystem",
+			"ShXform",
+			".shearlets",
+			"torchsheardec2D_broadcast",
+			"batch_fftshift2d",
+			"batch_fftshift2d_broad",
+			"batch_fftshift2d",
+			"shfactory",
+			"TmpDat",
+			".openfile",
+			"prepWorker",
+			"chunkfactor",
+			"onceInit",
+			"Elapsed time",
+			"time_spent",
+			"shearlet_xform",
+			"ShearletData",
+			"class",
+			"CustomDatasetSlice",
+			"__next__",
+			"coshrem_xform",
+			"complexImageShow",
+			"ssim",
+			"kSSIM",
+			"ssim",
+			"SSIM",
+			"time_spent",
+			"BigChunk",
+			"time_spent",
+			"timeit",
+			"complex128",
+			"get_chunk",
+			"mppool",
+			"MPPool",
+			"dtype",
+			".numpy",
+			"XRayResizer",
+			"kCovidtransform",
+			"CoShXform",
+			"3.5",
+			"getcomplexshearlets2D",
+			"kShearletspec",
+			"readChunks",
+			"basename",
+			"initworker",
+			"write_offsets",
+			"type(",
+			"write_header",
+			"cores",
+			"print",
+			"use_cuda:",
+			"getcomplex",
+			"cores",
+			".dir",
+			"pickle.load",
+			"MPPool",
+			"flush",
+			"\" chunk",
+			"fromC",
+			"from C",
+			"from chunks",
+			"bigchunksname",
+			"super()",
+			"time_spent",
+			"combine_offsets",
+			"tuple",
+			"offset2sizes",
+			"mpworker"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"shxform.complexImageShow"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "D:\\Dev\\datasets\\covid\\covid19_collector"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "dataset_builder.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1384,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 240.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "ourlogger.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 511,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								305,
+								305
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14584,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										275,
+										278
+									],
+									[
+										480,
+										483
+									],
+									[
+										666,
+										669
+									],
+									[
+										829,
+										832
+									],
+									[
+										962,
+										965
+									],
+									[
+										1140,
+										1143
+									],
+									[
+										1415,
+										1418
+									],
+									[
+										1619,
+										1622
+									],
+									[
+										1696,
+										1699
+									],
+									[
+										1773,
+										1776
+									],
+									[
+										1850,
+										1853
+									],
+									[
+										2015,
+										2018
+									],
+									[
+										2152,
+										2155
+									],
+									[
+										2515,
+										2518
+									],
+									[
+										2717,
+										2720
+									],
+									[
+										3020,
+										3023
+									],
+									[
+										3514,
+										3517
+									],
+									[
+										3964,
+										3967
+									],
+									[
+										4052,
+										4055
+									],
+									[
+										4416,
+										4419
+									],
+									[
+										4457,
+										4460
+									],
+									[
+										4869,
+										4872
+									],
+									[
+										4895,
+										4898
+									],
+									[
+										5107,
+										5110
+									],
+									[
+										5320,
+										5323
+									],
+									[
+										5386,
+										5389
+									],
+									[
+										5477,
+										5480
+									],
+									[
+										5603,
+										5606
+									],
+									[
+										5911,
+										5914
+									],
+									[
+										5968,
+										5971
+									],
+									[
+										6183,
+										6186
+									],
+									[
+										6407,
+										6410
+									],
+									[
+										6700,
+										6703
+									],
+									[
+										7015,
+										7018
+									],
+									[
+										7333,
+										7336
+									],
+									[
+										7374,
+										7377
+									],
+									[
+										7794,
+										7797
+									],
+									[
+										7820,
+										7823
+									],
+									[
+										8031,
+										8034
+									],
+									[
+										8244,
+										8247
+									],
+									[
+										8310,
+										8313
+									],
+									[
+										8401,
+										8404
+									],
+									[
+										8527,
+										8530
+									],
+									[
+										8893,
+										8896
+									],
+									[
+										9191,
+										9194
+									],
+									[
+										9639,
+										9642
+									],
+									[
+										9873,
+										9876
+									],
+									[
+										10017,
+										10020
+									],
+									[
+										10471,
+										10474
+									],
+									[
+										10767,
+										10770
+									],
+									[
+										10937,
+										10940
+									],
+									[
+										11031,
+										11034
+									],
+									[
+										11182,
+										11185
+									],
+									[
+										11214,
+										11217
+									],
+									[
+										11326,
+										11329
+									],
+									[
+										11332,
+										11335
+									],
+									[
+										11337,
+										11340
+									],
+									[
+										11443,
+										11446
+									],
+									[
+										11537,
+										11540
+									],
+									[
+										11562,
+										11565
+									],
+									[
+										11915,
+										11918
+									],
+									[
+										12193,
+										12196
+									],
+									[
+										12412,
+										12415
+									],
+									[
+										12607,
+										12610
+									],
+									[
+										12856,
+										12859
+									],
+									[
+										13144,
+										13147
+									],
+									[
+										13303,
+										13306
+									],
+									[
+										13617,
+										13620
+									],
+									[
+										13769,
+										13772
+									],
+									[
+										14052,
+										14055
+									],
+									[
+										14263,
+										14266
+									],
+									[
+										14471,
+										14474
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								406,
+								406
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "xray_dataset.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1025,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1020,
+								1020
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 340.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Virtualenv/Python + Virtualenv.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,8 +1,4 @@
-import logging
-import csv
 import os
-import hashlib
-import abc
 
 from pathlib import Path
 # from readme_module import add_key, get_readme_dict
@@ -12,8 +8,13 @@ import ourlogger
 
 kIEEE8032=False
 kFarjan=True
+<<<<<<< HEAD
 kSirm=False
 
+=======
+kSirm=True
+ 
+>>>>>>> db7d002358e6fd4085e2b6df5e1f9a561612fb31
 # class Director:
 #     def __init__(self):
 #         self._builder = None

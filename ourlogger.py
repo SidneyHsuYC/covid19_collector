@@ -6,7 +6,7 @@ def setuplogger(logger, logfilename='imageloader.log'):
 
 	formatter = logging.Formatter('%(levelname)s:%(name)s:%(message)s')
 
-	file_handler = logging.FileHandler(logfilename)
+	file_handler = logging.FileHandler(logfilename, encoding="utf-8")
 	file_handler.setFormatter(formatter)
 
 	stream_handler = logging.StreamHandler()
