@@ -155,18 +155,19 @@ class IEEE8023_builder(COVID_builder):
 
 
 class Farjan_builder(COVID_builder):
-    def __init__(self):
+    def __init__(self, path = 'farjan_repo/covid_chestXray_dataset'):
         super().__init__()
+        self.folder_path = path
     
     def _load_dataset(self):
         try:
-            dirs = os.listdir(Path.cwd() / 'covid_19 dataset')
+            dirs = os.listdir(self.folder_path / 'covid_19 dataset')
             label_from_folder = ['COVID-19' if i == 'covid19' else i for i in dirs]
 
             for index, sub_dir in enumerate(dirs):
                 # for file in os.listdir(Path.cwd() / 'covid_19 dataset' / sub_dir):
                 #     print(file)
-                sub_path = Path.cwd() / 'covid_19 dataset' / sub_dir
+                sub_path = self.folder_path / 'covid_19 dataset' / sub_dir
                 for file in os.listdir(sub_path):
                     if self._sanity_check(sub_path / file):
                         self._dataset.images.append(str(sub_path / file))
@@ -201,15 +202,15 @@ class Farjan_builder(COVID_builder):
         return True
 
 class Sirm_builder(COVID_builder):
-    def __init__(self):
+    def __init__(self, path):
         super().__init__()
-
+        self.folder_path = path
     def _load_dataset(self):
         try:
-            files = [i for i in os.listdir(Path.cwd()) if i.startswith('COVID')]
+            files = [i for i in os.listdir(self.folder_path) if i.startswith('COVID')]
             for file in files:
-                if self._sanity_check(Path.cwd() / file):
-                    self._dataset.images.append(str(Path.cwd() / file))
+                if self._sanity_check(self.folder_path / file):
+                    self._dataset.images.append(str(self.folder_path / file))
                     self._dataset.labels.append('COVID-19')
                     self._dataset.views.append('')
         except Exception as e:
@@ -242,24 +243,24 @@ class Sirm_builder(COVID_builder):
 
 def main():
 
-    ieee0832_path = Path.cwd() / 'ieee8032_repo'
-    os.chdir(ieee0832_path)
-    # ieee_builder = IEEE8023_builder('metadata.csv')
+    ieee0832_path = Path.cwd() / 'ieee8032_repo/covid-chestxray-dataset'
+    #os.chdir(ieee0832_path)
+    ieee_builder = IEEE8023_builder(ieee0832_path / 'metadata.csv')
 
-    # ieee_builder._load_dataset()
-    # ieee_dataset = ieee_builder._dataset
-    # print(f"ieee dataset images quantity: {len(ieee_dataset)}")
+    ieee_builder._load_dataset()
+    ieee_dataset = ieee_builder._dataset
+    print(f"ieee dataset images quantity: {len(ieee_dataset)}")
 
-    farjan_path = Path.cwd().parent / 'farjan_repo' 
-    os.chdir(farjan_path)
-    # farjan_builder = Farjan_builder()
-    # farjan_builder._load_dataset()
-    # farjan_dataset = farjan_builder._dataset
-    # print(f"farjan dataset images quantity: {len(farjan_dataset)}")
+    farjan_path = Path.cwd() / 'farjan_repo/covid_chestXray_dataset' 
+    #os.chdir(farjan_path)
+    farjan_builder = Farjan_builder(farjan_path)
+    farjan_builder._load_dataset()
+    farjan_dataset = farjan_builder._dataset
+    print(f"farjan dataset images quantity: {len(farjan_dataset)}")
 
-    sirm_path = Path.cwd().parent / 'sirm_repo' 
-    os.chdir(sirm_path)
-    sirm_builder = Sirm_builder()
+    sirm_path = Path.cwd() / 'sirm_repo' 
+    #os.chdir(sirm_path)
+    sirm_builder = Sirm_builder(sirm_path)
     sirm_builder._load_dataset()
     sirm_dataset = sirm_builder._dataset
     print(f"sirm_path dataset images quantity: {len(sirm_dataset)}")
