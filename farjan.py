@@ -17,7 +17,7 @@ class Farjan_builder(xray_dataset.COVID_builder):
 		super().__init__(filepath)
 	
 	def _load_dataset(self):
-		rootdir = self.filepath / 'covid_chestXray_dataset'
+		rootdir = self.filepath / 'covid_chestXray_dataset/covid_19 dataset'
 		try:
 			dirs = os.listdir(rootdir)
 			label_from_folder = ['COVID-19' if i == 'covid19' else i for i in dirs]

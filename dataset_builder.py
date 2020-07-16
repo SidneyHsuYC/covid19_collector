@@ -7,7 +7,7 @@ import ieee8032, farjan, sirm
 import ourlogger
 
 kIEEE8032=True
-kFarjan=False
+kFarjan=True
 kSirm=True
 
 # class Director:
