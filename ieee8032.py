@@ -5,12 +5,12 @@ import hashlib
 from pathlib import Path
 from collections import namedtuple
 
-import xray_dataset, ourlogger
+import xray_dataset
 logger = logging.getLogger(__name__)
-logger = ourlogger.setuplogger(logger)
 
 fields = ('patientid', 'offset', 'sex', 'age', 'finding', 'view', 'date')
 Labels = namedtuple('Labels', fields, defaults=(None,) * len(fields))
+
 
 class IEEE8023_builder(xray_dataset.COVID_builder):
 	def __init__(self, metadata, filepath):
@@ -18,13 +18,11 @@ class IEEE8023_builder(xray_dataset.COVID_builder):
 		self.metadata = metadata
 
 	def _load_dataset(self):
-		# logger = self.logger
 		rootdir = self.filepath / 'covid-chestxray-dataset'
 		try:
 			metafilepath = rootdir / self.metadata
 
 			with open(metafilepath, encoding="utf8", newline='') as csvfile:
-				# print('loading')
 				spamreader = csv.reader(csvfile, delimiter=',', quotechar='"')
 				self.header = next(spamreader)
 				self.__load_index(self.header)
@@ -74,7 +72,6 @@ class IEEE8023_builder(xray_dataset.COVID_builder):
 		checksum = 0
 		try:
 			filename = f"{row[self.folder_index ]}/{row[self.filename_index]}"
-			#print(f" {filename}")
 			with open(rootdir/filename, 'rb') as f:
 				image_file = f.read()
 				checksum = hashlib.md5(image_file).hexdigest()

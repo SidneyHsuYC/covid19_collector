@@ -17,6 +17,7 @@ Dataset collection note:
 	b. COVID-CT: https://github.com/ahmadhassan7/Covid-19-Datasets/tree/master/COVID-CT
 		* Contains COVID vs normal CT scan. Temporarily ignore.
 	c. Padchest-xray-dataset: Resource from: BIMCV-PadChest, resize image: 2.7G
+		* Positive resource: https://osf.io/nh7g8/
 	d. CheXpert: Standford ML group, competition, downsample resolution 11G
 5) axriv: https://arxiv.org/abs/2004.02060, paper of DL based on a small dataset, their resource contains three resource
 	a. ieee8032: Same as 1)

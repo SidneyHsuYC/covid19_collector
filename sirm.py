@@ -8,7 +8,6 @@ from collections import namedtuple
 import xray_dataset, ourlogger
 
 logger = logging.getLogger(__name__)
-logger = ourlogger.setuplogger(logger)
 
 fields = ('patientid', 'offset', 'sex', 'age', 'finding', 'view', 'date')
 Labels = namedtuple('Labels', fields, defaults=(None,) * len(fields))

@@ -43,8 +43,12 @@ class TestDatasetSize(unittest.TestCase):
         ieee_count = 0
         farjan_count = 0
         sirm_count = 0
-        for data in self.ieee_dataset:
-            ieee_count += 1
+        ieee_iter = iter(self.ieee_dataset)
+
+        # for data in self.ieee_dataset:
+        #     next(ieee_iter)
+        #     print(ieee_iter)
+        #     ieee_count += 1
         for data in self.farjan_dataset:
             farjan_count += 1
         for data in self.sirm_dataset:

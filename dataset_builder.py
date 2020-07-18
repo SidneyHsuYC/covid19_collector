@@ -4,11 +4,13 @@ from pathlib import Path
 # from readme_module import add_key, get_readme_dict
 import xray_dataset
 import ieee8032, farjan, sirm
-import ourlogger
+import logging
+import logging.config
+# import ourlogger
 
 kIEEE8032=True
-kFarjan=True
-kSirm=True
+kFarjan=False
+kSirm=False
 
 # class Director:
 #     def __init__(self):
@@ -19,9 +21,13 @@ kSirm=True
 #         self._builder._load_dataset()
 		# self._builder._sanity_check(index, row)
 
+logging.config.fileConfig('logging.conf', disable_existing_loggers=False)
+logger = logging.getLogger(__name__)
+# logger = ourlogger.setuplogger(logger)
 
 def main():
 	if kIEEE8032:
+		logger.info(f"Building IEEE8032 dataset")
 		ieee0832_path = Path.cwd() / 'ieee8032_repo'
 		ieee_builder = ieee8032.IEEE8023_builder('metadata.csv', ieee0832_path)
 
@@ -47,4 +53,3 @@ def main():
 
 if __name__ == '__main__':
 	main()
-
