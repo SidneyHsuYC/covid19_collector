@@ -5,29 +5,30 @@ import hashlib
 from pathlib import Path
 from collections import namedtuple
 
-import xray_dataset, ourlogger
+import xray_dataset
 
-logger = logging.getLogger(__name__)
-
-fields = ('patientid', 'offset', 'sex', 'age', 'finding', 'view', 'date')
+fields = ('patientid', 'offset', 'sex', 'age', 'modality', 'finding', 'view', 'date')
 Labels = namedtuple('Labels', fields, defaults=(None,) * len(fields))
 
 class Sirm_builder(xray_dataset.COVID_builder):
-	def __init__(self, filepath):
+	def __init__(self, filepath, logger=None):
 		super().__init__(filepath)
+		self.logger = logger or logging.getLogger(__name__)
 
 	def _load_dataset(self):
 		rootdir = self.filepath
+		logger = self.logger
 		try:
 			files = [i for i in os.listdir(rootdir) if i.startswith('COVID')]
 			for file in files:
 				if self._sanity_check(rootdir / file):
 					self._dataset.images.append(str(rootdir / file))
-					self._dataset.labels.append(Labels(finding='COVID-19'))
+					self._dataset.metadata.append(Labels(finding=['COVID-19']))
 		except Exception as e:
 			logger.exception(f"e")
 
 	def _sanity_check(self, file_path):
+		logger = self.logger
 		if file_path.name in self._dataset.imgname_set:
 			logger.info(f"Dataset Sirm, {file_path.name} has duplicate name in dataset.")
 			return None

@@ -1,6 +1,3 @@
-# Ignore repository
-bimcv_rerpo/*
-
 # ignore our venv
 venv4covid/*
 

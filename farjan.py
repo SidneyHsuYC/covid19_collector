@@ -4,18 +4,18 @@ import os
 import hashlib
 from pathlib import Path
 from collections import namedtuple
-import xray_dataset, ourlogger
+import xray_dataset
 
-logger = logging.getLogger(__name__)
-
-fields = ('patientid', 'offset', 'sex', 'age', 'finding', 'view', 'date')
+fields = ('patientid', 'offset', 'sex', 'age', 'modality', 'finding', 'view', 'date')
 Labels = namedtuple('Labels', fields, defaults=(None,) * len(fields))
 
 class Farjan_builder(xray_dataset.COVID_builder):
-	def __init__(self, filepath):
+	def __init__(self, filepath, logger=None):
 		super().__init__(filepath)
+		self.logger = logger or logging.getLogger(__name__)
 	
 	def _load_dataset(self):
+		logger = self.logger
 		rootdir = self.filepath / 'covid_chestXray_dataset/covid_19 dataset'
 		try:
 			dirs = os.listdir(rootdir)
@@ -26,11 +26,13 @@ class Farjan_builder(xray_dataset.COVID_builder):
 				for file in os.listdir(sub_path):
 					if self._sanity_check(sub_path / file):
 						self._dataset.images.append(str(sub_path / file))
-						self._dataset.labels.append(Labels(finding=label_from_folder[index]))
+						self._dataset.metadata.append(Labels(finding=[label_from_folder[index]],
+															modality='X-ray'))
 		except Exception as e:
 			raise e
 
 	def _sanity_check(self, file_path):
+		logger = self.logger
 		if file_path.name in self._dataset.imgname_set:
 			logger.info(f"Dataset Farjan, {file_path.name} has duplicate name in dataset.")
 			return None

@@ -9,12 +9,12 @@ class Xray_dataset():
 
 	def __init__(self):
 		self.images = []
-		self.labels = []
+		self.metadata = []
 
 	def __getitem__(self, index):
 		if index >= len(self.images):
 			return None
-		return (self.images[index], self.labels[index])
+		return (self.images[index], self.metadata[index])
 
 	def __len__(self):
 		return len(self.images)
@@ -24,29 +24,25 @@ class Xray_dataset():
 		self.index += 1
 		if index >= len(self.images): 
 			raise StopIteration 
-		return (self.images[index], self.labels[index])
+		return (self.images[index], self.metadata[index])
 
 	def __iter__(self):
 		self.index = 0
 		return self
 
 	def summary_dict(self):
-		finding_dic = defaultdict(lambda: defaultdict(int))
-		for label in self.labels:
-			finding_dic[label.finding][label.view] += 1
+		finding_dic = defaultdict(int)
+		for data in self.metadata:
+			for find in data.finding:
+				finding_dic[find] += 1
 		return finding_dic
 
 	def print_summary(self):
-		print(f"Total number of data: {len(self)}")
+		print(f"Number of data in dataset: {len(self)}")
 		finding_dic = self.summary_dict()
-		for cat, views in finding_dic.items():
-			count = 0
-			print(f"{cat}: ")
-			for view, qty in views.items():
-				count += qty
-				print(f"\t{view}, {qty}")
-			print('\t---------------')
-			print(f"\tSub-total: {count}")
+		for cat, qty in finding_dic.items():
+			print(f"{cat}: {qty}")
+		print('---------------')
 		
 class COVID_builder(metaclass=abc.ABCMeta):
 
