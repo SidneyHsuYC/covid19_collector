@@ -5,10 +5,10 @@ from tqdm import tqdm
 
 parser = argparse.ArgumentParser(usage="python data_downloader.py [-h] -d start:end",
 	description='Pass in which data package whats to download for BIMCV+ dataset.')
-parser.add_argument('-m', '--meta', dest="header", action='store_true')
+parser.add_argument('-m', '--meta', dest="header", action='store_true', help='Download Metadata.')
 parser.add_argument("-d", "--data", 
 					dest="dataset",
-					help='''data folder(s) to be download (index from 1 to 34): 
+					help='''Download data folder(s) (index from 1 to 34):     
 							-d [index] (for single folder), or
 							-d [start]:[end] (for multiple folders)" 
 							''')
