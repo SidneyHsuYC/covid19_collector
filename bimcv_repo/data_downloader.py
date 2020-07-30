@@ -1,7 +1,10 @@
 import argparse
 import requests
+import tarfile
+import os
 from url_dict import *
 from tqdm import tqdm
+from pathlib import Path
 
 parser = argparse.ArgumentParser(usage="python data_downloader.py [-h] -d start:end",
 	description='Pass in which data package whats to download for BIMCV+ dataset.')
@@ -14,17 +17,30 @@ parser.add_argument("-d", "--data",
 							''')
 
 def arg_check(args):
-	if (not args.header) and (not args.dataset):
-		parser.print_help()
-		exit(0)
-		# Downloading header folder
+
 	index_list = None
+	# Set default value if no input
+	if (not args.header) and (not args.dataset):
+		print(f"Using default value: Download header folder and Dataset 1.")
+		args.header = True
+		index_list = [1]
+
+		if os.path.exists('./bimcv_covid19_posi_head_iter1'):
+			print(f"--> Header folder already exists.")
+			args.header = False
+		if os.path.exists('./bimcv_covid19_posi_subjects_1'):
+			print(f"--> Dataset bimcv_covid19_posi_subjects_1 already exists.")
+			index_list = None
+		
 	if args.dataset:
 		dataset_index = args.dataset
+		# Check multiple folders
 		if ':' in dataset_index:
 			index_list = dataset_index.split(':')
+		# Only one folder	
 		else:
 			index_list = [dataset_index]
+		# Sanity check on input	
 		for i, num in enumerate(index_list):
 			try:
 				num = int(num)
@@ -42,41 +58,39 @@ def arg_check(args):
 			if index_list[0] >= index_list[1]:
 				print("Start index must be smaller than end index.")
 				exit(1)
+
 	return args.header, index_list
 
-	# index_list = list(set(sorted(index_list)))
-
-# def downlaod(file, url):
-
-# print(f"d = {args.d}")
-
-# parser.add_argument('integers', metavar='N', type=int, nargs='+',
-#                     help='an integer for the accumulator')
-# parser.add_argument('--sum', dest='accumulate', action='store_const',
-#                     const=sum, default=max,
-#                     help='sum the integers (default: find the max)')
-# parser.add_argument('-f', '--foo')
-# args = parser.parse_args()
-# print(args.accumulate(args.integers))
-
-def download(file_name):
-	url = url_dict.get(file_name)
+def download(filename):
+	url = url_dict.get(filename)
 	response = requests.get(url, stream=True)
 	total_size_in_bytes= int(response.headers.get('content-length', 0))
 	block_size = 1024 #1 Kibibyte
 
 	if response.status_code == 200:
-		print(f"Downloading {file_name}")
+		print(f"Downloading {filename}")
 		progress_bar = tqdm(total=total_size_in_bytes, unit='iB', unit_scale=True)
-		with open(file_name, 'wb') as file:
+		with open(filename, 'wb') as file:
 			for data in response.iter_content(block_size):
 				progress_bar.update(len(data))
 				file.write(data)
-	# progress_bar.close()
+	progress_bar.close()
 
 	if total_size_in_bytes != 0 and progress_bar.n != total_size_in_bytes:
 		print("ERROR, something went wrong")
 		exit(1)
+
+def extract(filename):
+	print(f"Extrating {filename}... ", end='', flush=True)
+	tar = tarfile.open(f"{filename}")
+	tar.extractall(f"{Path(filename).stem}")
+	tar.close()
+	print("Done")
+
+def remove(filename):
+	print(f"Removing {filename}... ", end='', flush=True)
+	os.remove(filename)
+	print("Done")
 
 if __name__ == '__main__':
 	args = parser.parse_args()
@@ -84,14 +98,11 @@ if __name__ == '__main__':
 
 	if header:
 		download('bimcv_covid19_posi_head_iter1.tgz')
-	for index in index_list:
-		download(f"bimcv_covid19_posi_subjects_{index}.tgz")
-'''
-homepage = requests.get('https://osf.io/nh7g8/')
-# data-level = 5 class="tb-row tb-odd"
-soup = BeautifulSoup(homepage.text, 'html.parser')
-# print(soup)
-# print(soup.find_all('a', class_="tb-row tb-odd"))
-for link in soup.find_all('a', href=True):
-	print(link['href'])
-'''
+		extract('bimcv_covid19_posi_head_iter1.tgz')
+		remove('bimcv_covid19_posi_head_iter1.tgz')
+	
+	if index_list:
+		for index in index_list:
+			download(f"bimcv_covid19_posi_subjects_{index}.tgz")
+			extract(f"bimcv_covid19_posi_subjects_{index}.tgz")
+			remove(f"bimcv_covid19_posi_subjects_{index}.tgz")

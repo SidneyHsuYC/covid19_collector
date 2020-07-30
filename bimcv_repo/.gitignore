@@ -1,6 +1,12 @@
 # Ignore all file
 bimcv*/*
 *.tgz
+CHANGES.txt
+README.md
+code/*
+dataset_description.json
+derivatives/
+participants.tsv
 
 # Analysis notebook
 *.ipynb
