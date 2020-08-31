@@ -14,6 +14,7 @@ Frontal_Lateral_Model.h5
 
 # Analysis notebook
 *.ipynb
+!hdf5_image_viewer.ipynb
 
 # Output file
 bimcv_metadata.csv
