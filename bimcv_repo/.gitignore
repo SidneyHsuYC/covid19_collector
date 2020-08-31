@@ -1,4 +1,5 @@
-# Ignore all file
+# Original file
+BIMCV-COVID-19/*
 bimcv*/*
 *.tgz
 CHANGES.txt
@@ -8,8 +9,15 @@ dataset_description.json
 derivatives/
 participants.tsv
 
+# Model 
+Frontal_Lateral_Model.h5
+
 # Analysis notebook
 *.ipynb
+
+# Output file
+bimcv_metadata.csv
+bimcv_metadata.hdf5
 
 # pdf file
 *.pdf

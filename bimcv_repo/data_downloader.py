@@ -18,19 +18,21 @@ parser.add_argument("-d", "--data",
 
 def arg_check(args):
 
-	index_list = None
+	index_list = []
 	# Set default value if no input
 	if (not args.header) and (not args.dataset):
+		parser.print_help()
+		print('......')
 		print(f"Using default value: Download header folder and Dataset 1.")
 		args.header = True
 		index_list = [1]
 
 		if os.path.exists('./bimcv_covid19_posi_head_iter1'):
-			print(f"--> Header folder already exists.")
+			print(f"--> Header bimcv_covid19_posi_head_iter1 folder already exists.")
 			args.header = False
 		if os.path.exists('./bimcv_covid19_posi_subjects_1'):
 			print(f"--> Dataset bimcv_covid19_posi_subjects_1 already exists.")
-			index_list = None
+			index_list = []
 		
 	if args.dataset:
 		dataset_index = args.dataset
@@ -101,8 +103,7 @@ if __name__ == '__main__':
 		extract('bimcv_covid19_posi_head_iter1.tgz')
 		remove('bimcv_covid19_posi_head_iter1.tgz')
 	
-	if index_list:
-		for index in index_list:
-			download(f"bimcv_covid19_posi_subjects_{index}.tgz")
-			extract(f"bimcv_covid19_posi_subjects_{index}.tgz")
-			remove(f"bimcv_covid19_posi_subjects_{index}.tgz")
+	for index in index_list:
+		download(f"bimcv_covid19_posi_subjects_{index}.tgz")
+		extract(f"bimcv_covid19_posi_subjects_{index}.tgz")
+		remove(f"bimcv_covid19_posi_subjects_{index}.tgz")

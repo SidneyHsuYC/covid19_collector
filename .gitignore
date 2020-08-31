@@ -9,6 +9,9 @@ readme_module.py
 template*
 dataloader_sample.py
 
+# model
+bimcv_repo/Frontal_Lateral_Model.h5
+
 # Ignore jupter notebook
 *.ipynb
 
