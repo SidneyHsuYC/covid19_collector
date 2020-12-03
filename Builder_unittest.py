@@ -1,35 +1,44 @@
 import unittest
+import logging
 from pathlib import Path
 import os
-from dataset_builder import Xray_dataset, COVID_builder, IEEE8023_builder, Farjan_builder, Sirm_builder
+from Classes.IEEE8023_builder import IEEE8023_builder
+from Classes.Farjan_builder import Farjan_builder
+from Classes.Sirm_builder import Sirm_builder
+from Classes.xray_dataset import Xray_dataset
+from Classes.COVID_builder import COVID_builder
 
 dataset_size = {
-    'ieee8032': 647,
+    'ieee8032': 637,
     'farjan': 48,
     'sirm': 63
 }
 
 class TestDatasetSize(unittest.TestCase):
 
+
     @classmethod
     def setUpClass(cls):
+        logger = logging.getLogger(__name__)
+        logger.setLevel(logging.WARNING)
         root_dir = Path.cwd()
         print(root_dir)
-        ieee0832_path = root_dir / 'ieee8032_repo'
+        ieee0832_path = root_dir / 'ieee8032_repo' / 'covid-chestxray-dataset'
         os.chdir(ieee0832_path)
-        ieee_builder = IEEE8023_builder('metadata.csv')
+        ieee_builder = IEEE8023_builder('metadata.csv', logger)
         ieee_builder._load_dataset()
         cls.ieee_dataset = ieee_builder._dataset
+        os.chdir(ieee0832_path.parent)
 
         farjan_path = root_dir / 'farjan_repo' 
         os.chdir(farjan_path)
-        farjan_builder = Farjan_builder()
+        farjan_builder = Farjan_builder(logger)
         farjan_builder._load_dataset()
         cls.farjan_dataset = farjan_builder._dataset
 
         sirm_path = root_dir / 'sirm_repo'
         os.chdir(sirm_path)
-        sirm_builder = Sirm_builder()
+        sirm_builder = Sirm_builder(logger)
         sirm_builder._load_dataset()
         cls.sirm_dataset = sirm_builder._dataset
 
@@ -44,7 +53,9 @@ class TestDatasetSize(unittest.TestCase):
         ieee_count = 0
         farjan_count = 0
         sirm_count = 0
+        ieee_iter = iter(self.ieee_dataset)
         for data in self.ieee_dataset:
+            # next(ieee_iter)
             ieee_count += 1
         for data in self.farjan_dataset:
             farjan_count += 1
